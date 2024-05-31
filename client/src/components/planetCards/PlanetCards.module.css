@@ -1,0 +1,24 @@
+.container
+{
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: scroll;
+}
+
+.hideItem
+{
+    height: 10lh;
+    overflow: hidden;
+}
+
+.card 
+{
+    display: flex;
+    flex-direction: column;
+    min-width: 33%;
+}
+
+.showItem
+{
+    height: auto;
+}
